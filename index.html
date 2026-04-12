@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Of By and For the People</title>
+    <title>Of By and For the People | The Swing Vote</title>
     <style>
         :root {
             --purple: #6A0DAD;
             --light-purple: #9B4FDD;
             --silver: #E5E7EB;
             --dark: #1F2937;
+            --danger: #DC2626;
         }
         body {
             margin: 0;
@@ -27,149 +28,165 @@
         h1 {
             font-size: 3.5rem;
             margin: 0 0 1rem;
-            font-weight: 700;
+            font-weight: 800;
+            letter-spacing: -1px;
         }
         .tagline {
             font-size: 1.5rem;
             margin: 0;
             opacity: 0.95;
+            font-weight: 500;
         }
         .main {
             max-width: 900px;
             margin: 2rem auto;
             padding: 0 1rem;
         }
-        .declaration {
+        .warning {
+            background: #fff3cd;
+            border-left: 5px solid #ffc107;
+            padding: 1rem 1.5rem;
+            border-radius: 4px;
+            margin: 2rem 0;
+            font-weight: 500;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .manifesto {
             background: white;
-            border: 4px solid var(--purple);
-            padding: 2.5rem;
+            border-top: 6px solid var(--purple);
+            padding: 3rem;
             margin: 2rem 0;
             border-radius: 8px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
         }
-        .declaration h2 {
+        .manifesto h2 {
             color: var(--purple);
             text-align: center;
+            font-size: 2.2rem;
             margin-top: 0;
+            margin-bottom: 2rem;
         }
-        .section {
-            margin: 3rem 0;
+        .manifesto h3 {
+            color: var(--dark);
+            border-bottom: 2px solid var(--silver);
+            padding-bottom: 0.5rem;
+            margin-top: 2.5rem;
+        }
+        .manifesto ul {
+            padding-left: 1.5rem;
+        }
+        .manifesto li {
+            margin-bottom: 0.8rem;
         }
         .btn {
             display: inline-block;
             background: var(--purple);
             color: white;
-            padding: 1rem 2rem;
-            font-size: 1.2rem;
+            padding: 1rem 1.5rem;
+            font-size: 1.1rem;
             text-decoration: none;
             border-radius: 6px;
             margin: 0.5rem;
             font-weight: 600;
-            transition: all 0.3s;
+            transition: all 0.2s ease-in-out;
+            text-align: center;
         }
         .btn:hover {
             background: #4C0A8F;
-            transform: translateY(-3px);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(106, 13, 173, 0.3);
         }
         .downloads {
             text-align: center;
             background: white;
-            padding: 2rem;
+            padding: 3rem 2rem;
             border-radius: 8px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            margin: 3rem 0;
+        }
+        .downloads h2 {
+            margin-top: 0;
+        }
+        .btn-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
         }
         footer {
             text-align: center;
-            padding: 2rem;
+            padding: 3rem 1rem;
             background: var(--dark);
-            color: white;
-            font-size: 0.9rem;
+            color: #9CA3AF;
+            font-size: 0.95rem;
         }
-        .warning {
-            background: #fff3cd;
-            border: 1px solid #ffeaa7;
-            padding: 1rem;
-            border-radius: 6px;
-            margin: 2rem 0;
-            font-weight: 500;
+        footer strong {
+            color: white;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Of By and For the People</h1>
-    <p class="tagline">Red + Blue = Purple • The Swing Vote • Power Back to the People</p>
-</header>
+    <header>
+        <h1>Of By and For the People</h1>
+        <p class="tagline">Not Red. Not Blue. Purple. • The Swing Vote • Power to the People</p>
+    </header>
 
-<div class="main">
+    <div class="main">
 
-    <div class="warning">
-        <strong>This website is informational only.</strong> No logins. No forms. No tracking. 
-        Download everything you need and build your local chapter offline. 
-        The movement lives in your community — not on any server.
+        <div class="warning">
+            <strong>This website is informational only.</strong> No logins. No forms. No donor links. No tracking. 
+            Download the tools you need below and build your sovereign local chapter offline. Power belongs in your community, not on a server.
+        </div>
+
+        <div class="manifesto">
+            <h2>The End of the Political Machine</h2>
+            
+            <p><strong>The Great Betrayal:</strong> Millions of Americans feel completely unrepresented by the current two-party duopoly and the top-down, money-driven political machine. The system has abandoned the working citizen in favor of special interests. We are ruled by a permanent political class that profits from our division while our local communities are systematically hollowed out.</p>
+
+            <h3>The True Private Sector Guarantee</h3>
+            <p>Governance belongs to the working citizen, not the administrative state. We are building a system completely insulated from government bloat and crony capitalism.</p>
+            <ul>
+                <li><strong>Working Class Only:</strong> Candidates must come from the working private sector (small business owners, tradespeople, employees, farmers). The political and administrative class is permanently disqualified.</li>
+                <li><strong>The 20% Anti-Crony Rule:</strong> No individual may run for office if more than 20% of their personal household income, or more than 20% of the gross revenue of any business they own, is derived from government contracts, public funding, or federal/state subsidies.</li>
+                <li><strong>The Zero-Dollar Mandate:</strong> We absolutely do not accept, solicit, or spend monetary campaign contributions of any kind. Campaigning is executed strictly through donated time, sweat equity, and localized action.</li>
+                <li><strong>Serve Without Reward:</strong> Every candidate must publicly sign a legally enforceable contract refusing all corporate PAC money, insider trading, special pensions, or healthcare benefits not available to the general public.</li>
+            </ul>
+
+            <h3>The Strategy: The Leverage of the Swing Vote</h3>
+            <p>We do not need to win the Presidency to break the system. By electing just 15 to 20 Representatives to the House and 2 to 4 Senators, our elected officials will act as a unified bloc. We will not align with the Democrats or Republicans. We will withhold our crucial "swing votes" until OfByFor policies are written into legislation.</p>
+
+            <h3>Our Core Demands</h3>
+            <p>We exist to return power to the local level, promote self-reliance, and serve our communities. Until these pillars are met, our bloc will not yield:</p>
+            <ul>
+                <li><strong>America First:</strong> We prioritize domestic strength, secure national interests, and ensure domestic industries thrive before looking abroad.</li>
+                <li><strong>Radical Transparency & Small Government:</strong> We demand a return to "back to the basics" governance. Every government action, contract, and vote must be easily accessible and understandable to the average citizen.</li>
+                <li><strong>Local Resilience:</strong> Communities must become anti-fragile by supporting private-sector initiatives that localize food supply chains, create independent energy grids, and protect regional fuel supplies.</li>
+            </ul>
+        </div>
+
+        <div class="downloads">
+            <h2>Start Your Local Chapter Today</h2>
+            <p>Download the offline toolkit. Print it. Adopt the Charter in your living room. Build from the ground up.</p>
+            
+            <div class="btn-grid">
+                <a href="docs/founding-charter.md" class="btn">Founding Charter<br><small>(The Rulebook)</small></a>
+                <a href="docs/serve-without-reward.md" class="btn">Serve Without Reward<br><small>(Candidate Contract)</small></a>
+                <a href="docs/chapter-launch-kit.md" class="btn">Chapter Launch Kit<br><small>(Step-by-Step Guide)</small></a>
+                <a href="docs/offline-survival-guide.md" class="btn">Offline Survival Guide<br><small>(Decentralized Armor)</small></a>
+            </div>
+        </div>
+
+        <div class="warning">
+            <strong>Decentralized by design.</strong> There is no national headquarters. No central leader. Every chapter is sovereign and operates under the Founding Charter only. If this site ever disappears, fork the GitHub repo or search IPFS. The movement cannot be stopped.
+        </div>
+
     </div>
 
-    <div class="declaration">
-        <h2>A New Declaration of Independence from the Two-Party System</h2>
-        <p>When in the course of human events it becomes evident that a political system designed to serve the people has instead enslaved them to endless division, corruption, and self-interest, it is the right — and the duty — of the people to dissolve the bonds that have become destructive...</p>
-        
-        <p><strong>We, the frustrated, the forgotten, the double-haters, the independents, and every American who is sick of choosing the lesser evil,</strong> declare our independence from the two-party duopoly that has hijacked our Republic.</p>
-
-        <h3>The Grievances We Can No Longer Tolerate</h3>
-        <ul>
-            <li>Both parties have turned government into a career for the connected, not temporary service.</li>
-            <li>Both parties are owned by donors and special interests while we pay the price.</li>
-            <li>Both parties stoke rage to stay in power and leave our communities weaker.</li>
-            <li>Both parties promise change but deliver the same top-down control and backroom deals.</li>
-        </ul>
-
-        <h3>Therefore We Declare These Self-Evident Truths</h3>
-        <ol>
-            <li>Government exists to serve the people — not rule them. Power flows from the bottom up.</li>
-            <li>No more career politicians. Every candidate signs the <strong>Serve Without Reward</strong> contract.</li>
-            <li>No campaign contributions. Everything is donated time and local volunteer effort.</li>
-            <li><strong>Purple is our color.</strong> Red + Blue = People First.</li>
-            <li>Small government, maximum transparency, America First.</li>
-            <li>We are the swing vote: 15–20 House seats and 2–4 Senate seats to force real change.</li>
-            <li>Every local chapter is fully sovereign and infiltration-proof.</li>
-        </ol>
-
-        <p style="text-align:center; font-style:italic; margin-top:2rem;">
-            We mutually pledge to each other our lives, our fortunes, and our sacred honor — not to any party label, but to the restoration of a government that truly belongs to the people.
-        </p>
-        <p style="text-align:center; font-weight:bold;">Signed in the spirit of 1776 — The Citizens of Of By and For the People</p>
-    </div>
-
-    <div class="downloads">
-        <h2>Start Your Local Chapter Today</h2>
-        <p>Download the complete offline toolkit. Print it. Adopt the Charter in your living room. Build from the ground up.</p>
-        
-        <a href="toolkit/ofbyfor-toolkit.zip" class="btn">Download Full Offline Toolkit (ZIP)</a><br>
-        <a href="docs/founding-charter.pdf" class="btn">Founding Charter + Anti-Infiltration Rules</a>
-        <a href="docs/serve-without-reward.pdf" class="btn">Serve Without Reward Contract</a>
-        <a href="docs/chapter-launch-kit.pdf" class="btn">Chapter Launch Kit</a>
-        <a href="docs/purple-branding-pack.zip" class="btn">Purple Branding Pack</a>
-    </div>
-
-    <div class="section">
-        <h2>Why Purple?</h2>
-        <p>Purple is red + blue. We are not choosing sides in their toxic game — we are the force that transcends it. 
-        As the swing vote we will negotiate with either party and force our bottom-up priorities into every piece of legislation.</p>
-    </div>
-
-    <div class="warning">
-        <strong>Decentralized by design.</strong> There is no national headquarters. No central leader. 
-        Every chapter is sovereign and operates under the Founding Charter only. 
-        If this site ever disappears, fork the GitHub repo or search IPFS. The movement cannot be stopped.
-    </div>
-
-</div>
-
-<footer>
-    <p>Of By and For the People • 2026 • A bottom-up movement for small government, transparency, and real citizen power.</p>
-    <p>This site is static and informational only. Mirror it. Build locally. Power to the people.</p>
-</footer>
+    <footer>
+        <p><strong>Of By and For the People</strong> • 2026 • A bottom-up movement for small government, transparency, and real citizen power.</p>
+        <p>This site is static and open-source. Mirror it. Build locally.</p>
+    </footer>
 
 </body>
 </html>
